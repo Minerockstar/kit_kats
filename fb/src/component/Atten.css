@@ -1,0 +1,283 @@
+.atten{
+    position: relative;
+    top: 80px;
+    height: 470px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+* input{
+    outline: none;
+}
+.attenboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 180px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registeratten{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.attenboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.firmatten{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmatten .fstname{
+    width: 400px;
+
+}
+.firmatten button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* gat` */
+.gst {
+  height: 650px;
+  border: 1px solid rgba(128, 128, 128, 0.32);
+  border-radius: 5px;
+  position: relative;
+  top: 70px;
+  left: 50px;
+  background-color: white;
+  width: 900px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.thanks{
+    position: absolute;
+    left: 340px;
+    font-size: 13px;
+    color: rgb(1, 151, 181);
+    top: 600px;
+    font-weight: 600;
+}
+.bill{
+   
+}
+.bill p{
+    
+}
+.bill select{
+    color: black;
+}
+.bill h3{
+ 
+}
+.bill h1{
+   color: rgb(1, 151, 181); 
+   font-weight: 600;
+   font-size: 25px;
+}
+.invoice h3{
+color: rgb(1, 151, 181);
+font-weight: 600;
+font-size: 18px;
+}
+.invoice p{
+    width: 300px;
+    /* height: 50px; */
+    font-size: 12px;
+    background-color: rgba(128, 128, 128, 0.347);
+}
+.invo {
+    background-color: rgba(128, 128, 128, 0.347);
+    padding-top: 5px;
+    padding-bottom: -5px;
+    width: 300px;
+}
+.logomain{
+    position: absolute;
+    left: 670px;
+    top: 10px;
+}
+.logomain img{
+    width: 200px;
+    height: 80px;
+    /* padding-bottom: 0px; */
+}
+.invo h4{
+font-size: 12px;
+}
+.invoicegst span{
+    font-weight: 600;
+}
+.invoicegst{
+padding-top: 20px;
+}
+.div1{
+background-color: rgb(28, 188, 194);
+float: left;
+color: white;
+}
+.div2{
+    background-color: rgba(128, 128, 128, 0.361);
+    float: right;
+    width: 120px;
+}
+.div2 input{
+    width: 120px;
+    background-color: rgba(128, 128, 128, 0.018);
+    border: none;
+}
+.gsttin{
+    padding-top: 5px;
+}
+  .invoicegst input{
+    color: black;
+  }
+.businessreq{
+  width: 200px;
+}
+
+.buzzz table{
+    border-collapse: collapse;
+   top: 20px;
+   position: relative;
+}
+.buzzz input{
+    width: 150px;
+}
+.buzzz .total{
+    position: absolute;
+    left: 345px;
+    height: 10px;
+}
+.totlo {
+    width: 151px;
+    text-align: center;
+    height: 10px;
+}
+.buzzz th{
+    background-color: rgb(28, 188, 194);
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+.buzzz td{
+    height: 32px;
+}
+.zero {
+    width: 72px;
+    text-align: center;
+    height: 10px;
+}
+.buzzz {
+   
+}
+.buzzz table{
+   
+   
+}
+.buzzz th{
+    border: 1px solid var(--body_color);
+    color: white;
+}
+.buzzz tr{
+    border: 1px solid var(--body_color);
+}
+.buzzz td{
+    border: 1px solid var(--body_color);
+    text-align: center;
+}
+.words {
+   
+}
+.words h3{
+   
+    width: 200px;
+}
+.words p{
+    width: 200px;
+font-size: 15px;
+left: 20px;
+margin-top: 130px;
+}
+.bank h3{
+font-size: 18px;
+font-weight: 600;
+}
+.bank h4{
+    font-size: 15px;
+    }
+.words button{
+   
+     color: white;
+     width: 80px;
+     padding: 5px 5px 5px 5px;
+     border-radius: 2px;
+     cursor: pointer;
+     border: none;
+}
+.plusicon{
+    
+    color: green;
+    cursor: pointer;
+    font-size: 20px;
+}
+.insecond {
+   
+
+}
+.printbtn{
+    position: relative;
+    /* color: var(--body_color); */
+    font-weight: bold;
+   left: 750px;
+   color: white;
+   background-color: rgb(28, 188, 194);
+   top: -100px;
+}
+.buzzz input{
+    outline: none;
+    color: black;
+}
+@media print {
+    .printbtn {
+        display: none;
+    }
+    .plusicon{
+        display: none;
+    }
+    .delicons{
+        display: none;
+    }
+}
+.delicons {
+   
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+.detailcus{
+    color: black;
+}

@@ -1,0 +1,755 @@
+.student{
+    position: relative;
+    top: 80px;
+    height: 650px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.stfboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+ .iospros{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 120px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registerstd{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.stfboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.firmstd{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmstd .fstname{
+    width: 400px;
+
+}
+.firmstd button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Addemp */
+.emp{
+    position: relative;
+    top: 80px;
+    height: 790px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.empboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 170px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registerstd{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.empboby p{
+    position: absolute;
+    left: 650px;
+    top: 20px;
+}
+.firmemp{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmemp .fstname{
+    width: 400px;
+
+}
+.firmemp button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.required-star {
+    color: red;
+    font-size: 1.2em; /* Adjust the size as needed */
+    margin-left: 2px;
+  }
+
+  /* stdlist */
+  .studentlist{
+    position: relative;
+    top: 80px;
+    height: 350px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.stdlistboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registerstdlist{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.stdlistboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.stdlistbodys{
+    border: 1px solid rgb(204, 201, 201);
+    height: 60px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#search{
+    position: absolute;
+    width: 200px;
+    color: var(--body_color);
+    outline: none;
+    background-color: rgba(183, 181, 181, 0.324);
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    left: 10px;
+    top: 80px;
+}
+.listtab tr{
+    border: 1px solid var(--body_color);
+    width: 200px;
+    text-align: center;
+ }
+ .listtab td{
+     border: 1px solid var(--body_color);
+     width: 200px;
+     text-align: center;
+ }
+ .listtab th{
+     border: 1px solid var(--body_color);
+     background-color: gray;
+     width: 200px;
+ }
+ table th tr{
+    border-color: rgb(210, 208, 208);
+ }
+ .tableboby{
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 130px;
+    border-color: rgb(210, 208, 208);
+ }
+ .pagibtn button{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 50px;
+    }
+    .trinput input{
+        width: 100px;
+    }
+    .deldelicons{
+        cursor: pointer;
+        font-size: 20px;
+        color: red;
+    }
+    .saveicons{
+        cursor: pointer;
+        font-size: 20px;
+        color: rgb(8, 205, 8);
+    }
+    .delicon{
+        color: #0576c2;
+    }
+    .pagibtn button.disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+      
+      .pagibtn button:not(.disabled):hover {
+        background-color: #e2e6ea;
+      }
+      .pagibtn button {
+        margin: 0 10px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        cursor: pointer;
+        color: #0576c2;
+        position: relative;
+        top: 10px;
+        left: 760px;
+    font-weight: 500;
+      }      
+      
+      /* viewemp */
+      .emplist{
+        position: relative;
+        top: 80px;
+        height: 650px;
+        background-color: white;
+        width: 910px;
+        border: 1px solid rgb(205, 203, 203);
+        left: 40px;
+        border-radius: 5px;
+    }
+    .emplistbodys .iospro{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        background-color: #0576c2;
+        cursor: pointer;
+        width: 170px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+    .registeremplist{
+        position: absolute;
+        left: 360px;
+        top: 20px;
+        color: #0576c2;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .emplistbodys p{
+        position: absolute;
+        left: 650px;
+        top: 20px;
+    }
+    .firmstd{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         position: relative;
+         top: 80px;
+         left: 20px;
+    }
+    .firmstd .fstname{
+        width: 400px;
+    
+    }
+    .firmstd button{
+        width: 150px;
+        height: 30px;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: #0576c2;
+        color: white;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    /* interviw */
+    .interv{
+        position: relative;
+        top: 80px;
+        height: 600px;
+        background-color: white;
+        width: 910px;
+        border: 1px solid rgb(205, 203, 203);
+        left: 40px;
+        border-radius: 5px;
+    }
+    .intervboby .iospro{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        background-color: #0576c2;
+        cursor: pointer;
+        width: 170px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+    .registerinterv{
+        position: absolute;
+        left: 360px;
+        top: 20px;
+        color: #0576c2;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .intervboby p{
+        position: absolute;
+        left: 690px;
+        top: 20px;
+    }
+    .firminterv{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         position: relative;
+         top: 80px;
+         left: 20px;
+    }
+    .firminterv .fstname{
+        width: 400px;
+    
+    }
+    .firminterv button{
+        width: 150px;
+        height: 30px;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: #0576c2;
+        color: white;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .required-star {
+        color: red;
+        font-size: 1.2em; /* Adjust the size as needed */
+        margin-left: 2px;
+      }
+
+      /* vendor */
+      .vendor{
+        position: relative;
+        top: 80px;
+        height: 450px;
+        background-color: white;
+        width: 910px;
+        border: 1px solid rgb(205, 203, 203);
+        left: 40px;
+        border-radius: 5px;
+    }
+    .empvendor .iospro{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        background-color: #0576c2;
+        cursor: pointer;
+        width: 140px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+    .registerven{
+        position: absolute;
+        left: 360px;
+        top: 20px;
+        color: #0576c2;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .empvendor p{
+        position: absolute;
+        left: 700px;
+        top: 20px;
+    }
+    .firmven{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         position: relative;
+         top: 80px;
+         left: 20px;
+    }
+    .firmven .fstname{
+        width: 400px;
+    
+    }
+    .firmven button{
+        width: 150px;
+        height: 30px;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: #0576c2;
+        color: white;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .required-star {
+        color: red;
+        font-size: 1.2em; /* Adjust the size as needed */
+        margin-left: 2px;
+      }
+
+      /* viewvendeor */
+      .vendorss{
+        position: relative;
+        top: 80px;
+        height: 450px;
+        background-color: white;
+        width: 910px;
+        border: 1px solid rgb(205, 203, 203);
+        left: 40px;
+        border-radius: 5px;
+    }
+    .empvendorss .iospro{
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        background-color: #0576c2;
+        cursor: pointer;
+        width: 140px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+    .registervens{
+        position: absolute;
+        left: 360px;
+        top: 20px;
+        color: #0576c2;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .empvendorss p{
+        position: absolute;
+        left: 700px;
+        top: 20px;
+    }
+    .firmvenss{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         position: relative;
+         top: 80px;
+         left: 20px;
+    }
+    .firmvenss .fstname{
+        width: 400px;
+    
+    }
+    .firmvenss button{
+        width: 150px;
+        height: 30px;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        border: none;
+        background-color: #0576c2;
+        color: white;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .required-star {
+        color: red;
+        font-size: 1.2em; /* Adjust the size as needed */
+        margin-left: 2px;
+      }
+
+/* leade */
+.lead{
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+    height: 500px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.leadboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 110px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+ .iospros{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 120px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registerlead{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.leadboby p{
+    position: absolute;
+    left: 745px;
+    top: 20px;
+}
+.firmlead{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmlead .fstname{
+    width: 400px;
+
+}
+.firmlead button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.managelead{
+    color: #0576c2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mandownload {
+   
+   color: white;
+   display: flex;
+   flex-wrap: wrap; 
+   gap: 10px;
+   position: absolute;
+   top: 15px;
+   left: 350px;
+}
+.mandownload span {
+    cursor: pointer;
+    background-color: #0576c2;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+  }
+.receitboby .iospros{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 120px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.receitboby p{
+    position: absolute;
+    left: 740px;
+    top: 20px;
+}
+
+/* managereport */
+.year{
+    position: absolute;
+    left: 600px;
+    top: 20px;
+}
+.receipt{
+    position: relative;
+    top: 80px;
+    height: 400px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.receiboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 110px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+ 
+.registerreci{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.receiboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.years{
+    position: absolute;
+    left: 800px;
+    top: 20px;
+}
+/* managereports */
+.boxdashs{
+    display: flex;
+    position: relative;
+    top: 80px;
+    border: 1px solid rgba(128, 128, 128, 0.352);
+  }
+  .boxdashs div{
+    border: 1px solid rgb(215, 215, 215);
+    margin: 10px;
+    border-radius: 5px;
+    width: 500px;
+    height: 120px;
+  }
+  .boxdashs span{
+    font-size: 30px;
+    background-color: #0576c2;
+    border-radius: 2px;
+    color: white;
+    position: relative;
+    left: 160px;
+    top: -50px;
+  }
+  .empdashs{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    /* width: 800px; */
+    width: 100px;
+   }
+   .dashnums{
+    position: relative;
+   left: 20px;
+   top:-20px;
+  }
+  .report{
+    position: relative;
+    top: 80px;
+    height: 222px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+
+/* adminlist */
+.registeradmonsli{
+    position: absolute;
+    left: 420px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.adminlistboby p{
+    position: absolute;
+    left: 760px;
+    top: 20px;
+}
+.adminlistboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .5);
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+}
+.login input{
+    padding-left: 5px;
+    outline: none;
+   margin-left: 30px;
+   width: 280px;
+   border: none;
+   background-color: rgba(128, 128, 128, 0.18);
+   color: black;
+}
+.loginbtn{
+    position: relative;
+    left: 65px;
+}
+#contacolor{
+    background-color: rgb(0, 204, 255);
+    height: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.lastdiv{
+    height: 50px;
+}
+.login button{
+    background-color: rgb(11, 11, 185);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+.signin{
+    position: relative;
+    left: 25px;
+}
+.forgot{
+  
+    width: 100%;
+}
+.container{
+    /* overflow-y: auto;  */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

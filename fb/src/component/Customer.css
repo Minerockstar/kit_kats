@@ -1,0 +1,318 @@
+.customer{
+    position: relative;
+    top: 80px;
+    height: 420px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.cusboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registercus{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.cusboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.firmcus{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmcus .fstname{
+    width: 400px;
+
+}
+.firmcus button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* admin` */
+.admin{
+    position: relative;
+    top: 80px;
+    height: 330px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.adminboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 160px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registeradmin{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.adminboby p{
+    position: absolute;
+    left: 710px;
+    top: 20px;
+}
+.firmadmin{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmadmin .fstname{
+    width: 400px;
+
+}
+.firmadmin button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* invoice */
+.customer{
+    position: relative;
+    top: 80px;
+    height: 420px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.cusboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registercus{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.cusboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.firmcus{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmcus .fstname{
+    width: 400px;
+
+}
+.firmcus button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/* invoice */
+.firminvoice{
+    display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firminvoice .fstname{
+    width: 850px;
+
+}
+.firminvoice button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 325px;
+}
+#invoice{
+    position: relative;
+    top: 80px;
+    height: 230px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+/* course fee */
+#fees{
+    position: relative;
+    top: 80px;
+    height: 230px;
+    background-color: white;
+    width: 910px;
+    border: 1px solid rgb(205, 203, 203);
+    left: 40px;
+    border-radius: 5px;
+}
+.feeboby .iospro{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #0576c2;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+.registerfee{
+    position: absolute;
+    left: 360px;
+    top: 20px;
+    color: #0576c2;
+    font-weight: 600;
+    font-size: 18px;
+}
+.feeboby p{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+.firmfeesss{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     position: relative;
+     top: 80px;
+     left: 20px;
+}
+.firmfeesss .fstname{
+    width: 200px;
+
+}
+.firmfeesss button{
+    width: 150px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #0576c2;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.iconsfee{
+    position: absolute;
+    left: 780px;
+    top: 170px;
+}
+.iconfee{
+ background-color: gray;
+ color: white;
+ /* width: 100px; */
+ font-size: 30px;
+ border-radius: 5px;
+ padding: 5px 5px 5px 5px;
+ cursor: pointer;
+}
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  .close{
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .popup-content h4{
+     text-align: center;
+     font-weight: 600;
+  }
+  .popup-content input{
+    width: 250px;
+  }
+  .popup-content button{
+    position: relative;
+    left: 50px;
+    width: 80px;
+    background-color: #0576c2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    top: 20px;
+  }
+  #cancel{
+    background-color: rgba(128, 128, 128, 0.301);
+    color: #0576c2;
+    border-color: #0576c2;
+  }
